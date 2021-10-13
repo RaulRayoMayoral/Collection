@@ -1,14 +1,27 @@
 package com.company;
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Llapis {
     int colores;
     int grueso;
-    String lapiz;
-    List<String> caixa = new ArrayList<String>(Integer.parseInt(lapiz));
-    List<String> caixa2 = new ArrayList<String>(Integer.parseInt(lapiz));
+
+    public Llapis(int colores, float grueso) {
+    }
+
+    public Llapis(int i) {
+    }
+
+    public int getColores() {
+        return colores;
+    }
+
+    public void setColores(int colores) {
+        this.colores = colores;
+    }
+
+    public int getGrueso() {
+        return grueso;
+    }
+    public void setGrueso(float grueso){
+        this.grueso = (int) grueso;
+    }
 }
